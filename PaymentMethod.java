@@ -1,5 +1,5 @@
 public interface PaymentMethod {
-    public double processPayment();
-    public double processRefund();
+    public boolean processPayment(double amount);
+    public boolean processRefund(double amount);
     
 } 
